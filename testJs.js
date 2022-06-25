@@ -45,6 +45,7 @@ allarr();
 let button = document.querySelector(".button");
 let input = document.querySelector(".input");
 let result = document.querySelector(".result");
+const image = document.createElement('img')
 
 
 
@@ -53,6 +54,10 @@ button.onclick = function () {
     input.value = "";
     if (correct.hasOwnProperty(data)) {
         result.innerHTML = correct[data];
+    } else {
+        result.innerHTML = "";
+        image.src  = 'fuck.jpg';
+        document.querySelector('.result').appendChild(image)
     }
     
     }

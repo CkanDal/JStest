@@ -2,12 +2,15 @@
 
 .result {
     color: blue;
+
 }
 
 body {
     background: white }
 
 .clickme    {
+    height: 25%;
+    width: 25%;
     border-radius: 1em;
     padding: 1em;
     position: absolute;
@@ -15,3 +18,8 @@ body {
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%) }
+
+    img {
+        height: 50%;
+        width: 71%;
+    }
